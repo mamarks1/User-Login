@@ -1,0 +1,81 @@
+html {
+    background: url(images/background.jpg) no-repeat center fixed;
+    background-size: cover;
+    padding-top: 50px;
+    
+}
+
+body {
+    border: 3px solid purple;
+    width: 600px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+div.text {
+    background-color: purple;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+p {
+    text-align: center
+}
+
+p.forgot {
+   color: white;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-family: Georgia; 
+    text-decoration: none;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+img.facebook {
+    width: 50px;
+    padding-right: 5px;
+}
+
+img.youtube {
+    width: 50px;
+    padding-right: 5px;
+}
+
+img.twitter {
+    width: 50px;
+    padding-right: 5px;
+}
+
+img.instagram {
+    width: 50px;
+}
+
+div.body {
+    border-radius: 20px;
+}
+
+}
+a.Forgot:hover{
+    color: yellow;
+    text-decoration: underline
+}
